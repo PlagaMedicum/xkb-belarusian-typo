@@ -5,20 +5,21 @@ SYMBOLS_PATH=/usr/share/X11/xkb/symbols/by
 
 create_backup()
 {
-  sudo cp $EVDEV_PATH ./backup/evdev.xml
-  sudo cp $SYMBOLS_PATH ./backup/by
+  mkdir ./backup
+  sudo cp -rf $EVDEV_PATH ./backup/evdev.xml
+  sudo cp -rf $SYMBOLS_PATH ./backup/by
 }
 
 install()
 {
-  sudo cp ./evdev.xml $EVDEV_PATH
-  sudo cp ./by $SYMBOLS_PATH
+  sudo cp -rf ./evdev.xml $EVDEV_PATH
+  sudo cp -rf ./by $SYMBOLS_PATH
 }
 
 backup()
 {
-  sudo cp ./backup/evdev.xml $EVDEV_PATH
-  sudo cp ./backup/by $SYMBOLS_PATH
+  sudo cp -rf ./backup/evdev.xml $EVDEV_PATH
+  sudo cp -rf ./backup/by $SYMBOLS_PATH
 }
 
 case "$1" in

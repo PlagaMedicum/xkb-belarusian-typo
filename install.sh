@@ -5,6 +5,7 @@ SYMBOLS_PATH=/usr/share/X11/xkb/symbols/by
 
 create_backup()
 {
+  sudo rm -rf ./backup
   mkdir ./backup
   sudo cp -rf $EVDEV_PATH ./backup/evdev.xml
   sudo cp -rf $SYMBOLS_PATH ./backup/by

@@ -147,7 +147,7 @@ xkb_symbols "typo_alt" {
 	key	<AD06> { [	Cyrillic_en,		Cyrillic_EN,		yen							] };
 	key	<AD07> { [	Cyrillic_ghe,		Cyrillic_GHE,		Ukrainian_ghe_with_upturn,	Ukrainian_GHE_WITH_UPTURN	] };
 	key	<AD08> { [	Cyrillic_sha,		Cyrillic_SHA		] };
-	key	<AD09> { [	Cyrillic_shcha,		Cyrillic_SHCHA,		Byelorussian_shortu,		Byelorussian_SHORTU			] };
+	key	<AD09> { [	Cyrillic_shcha,		Cyrillic_SHCHA,		Byelorussian_shortu,		Byelorussian_SHORTU,		] };
 	key	<AD10> { [	Cyrillic_ze,		Cyrillic_ZE,		U00A7						] };
 	key	<AD11> { [	Cyrillic_ha,		Cyrillic_HA,		U00D7,						U00B7						] };
 	key	<AD12> { [	Cyrillic_hardsign,	Cyrillic_HARDSIGN,	U2019,						apostrophe					] };

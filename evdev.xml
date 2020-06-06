@@ -1757,6 +1757,12 @@
             <description>Belarusian (Latin)</description>
           </configItem>
         </variant>
+	<variant>
+          <configItem>
+            <name>latin_typo</name>
+            <description>Belarusian (Latin Typo)</description>
+          </configItem>
+        </variant>
       	<variant>
           <configItem>
             <name>typo</name>

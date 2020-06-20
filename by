@@ -69,6 +69,7 @@ xkb_symbols "latin_typo" {
 	key <AD03> { [	e,		E,	eogonek,	Eogonek	    ] };
 	key <AD07> { [	u,		U,	ubreve,		Ubreve	    ] };
 	key <AD08> { [	i,		I,	iogonek,	Iogonek	    ] };
+	key <AD09> { [  o,		O,	oacute,		Oacute      ] };
 	key <AC01> { [	a,		A,	aogonek,	Aogonek	    ] };
 	key <AC02> { [	s,		S,	sacute,		Sacute	    ] };
 	key <AC03> { [	d,		D,	zabovedot,	Zabovedot   ] };

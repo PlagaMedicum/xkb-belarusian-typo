@@ -75,8 +75,8 @@ xkb_symbols "latin_typo" {
 	key <AC03> { [	d,		D,	zabovedot,	Zabovedot   ] };
 	key <AC09> { [	l,		L,	lstroke,	Lstroke	    ] };
 	key <AC10> { [	semicolon,	colon,	lacute,		Lacute	    ] };
-	key <AB01> { [	z,		Z,	zacute,		Zacute	    ] };
-	key <AB02> { [	x,		X,	zcaron,		Zcaron	    ] };
+	key <AB01> { [	z,		Z,	zcaron,		Zcaron	    ] };
+	key <AB02> { [	x,		X,	zacute,		Zacute	    ] };
 	key <AB03> { [	c,		C,	cacute,		Cacute	    ] };
 	key <AB04> { [	v,		V,	ccaron,		Ccaron	    ] };
 	key <AB06> { [	n,		N,	nacute,		Nacute	    ] };
@@ -117,7 +117,7 @@ xkb_symbols "typo" {
 	key <AD08> { [	Cyrillic_sha,		Cyrillic_SHA,		Cyrillic_ghe_bar, 		Cyrillic_GHE_bar		] };
 	key <AD09> { [	Byelorussian_shortu,	Byelorussian_SHORTU,	Cyrillic_shcha,			Cyrillic_SHCHA			] };
 	key <AD10> { [	Cyrillic_ze,		Cyrillic_ZE,		U00A3,				U00BD				] };
-	key <AD11> { [	Cyrillic_ha,		Cyrillic_HA,		U00D7,				U00B7				] };
+	key <AD11> { [	Cyrillic_ha,		Cyrillic_HA,		Cyrillic_shha,			Cyrillic_SHHA			] };
 	key <AD12> { [	U2019,			apostrophe,		Cyrillic_hardsign,		Cyrillic_HARDSIGN		] };
 
 	key <AC01> { [	Cyrillic_ef,	Cyrillic_EF,	leftarrow,		euro			] };

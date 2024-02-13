@@ -16,7 +16,7 @@ OPTIONS:
                     1. Belarusian Typo (cyrillic)
                     2. Belarusian alt. Typo (russian chars first)
                     3. Belarusian Latin typo
-    -- backup -b  Restores config files from backup
+    --backup  -b  Restores config files from backup
     --flag    -f  Replaces BSSR-style flag to the national flag of Belarus.
 EOM
 }
